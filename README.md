@@ -12,17 +12,19 @@
 
 [Benefits of single page aplications.](#benefits-of-single-page-aplications)
 
-[What is JSX?](#what-is-jsx)
+[React JSX](#what-is-jsx)
 
-[What is component?](#what-is-component)
+[React Component](#what-is-component)
 
-[What is react props?](#what-is-react-props)
+[React properties](#what-is-react-properties)
 
-[What is react state?](#what-is-react-state)
+[React Hooks](#what-is-react-hooks)
 
-[What is event in react?](#what-is-event-in-react)
+[React state](#what-is-react-state)
 
-[add css in react jsx](#add-css-in-react-jsx)
+[Event in react](#what-is-event-in-react)
+
+[Add css in react jsx](#add-css-in-react-jsx)
 
 ### What is react?
 
