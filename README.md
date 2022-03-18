@@ -12,9 +12,9 @@
 
 [Benefits of single page aplications.](#benefits-of-single-page-aplications)
 
-[What is component?](#what-is-component)
-
 [What is JSX?](#what-is-jsx)
+
+[What is component?](#what-is-component)
 
 [What is react props?](#what-is-react-props)
 
@@ -39,59 +39,11 @@
 3. Ease in Building Feature-rich Apps.
 4. Uses Less Bandwidth.
 
-### What is component?
-
-> Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components.
-
-#### Functional component
-
-```Js
-import React from 'react';
-
-export default function UserProfile() {
-  return (
-      <div className="UserProfile">
-        <div>Hello</div>
-        <div>World</div>
-     </div>
-  );
-}
-```
-
-#### Embed an internal component
-
-```Js
-import React from 'react';
-import UserAvatar from "./UserAvatar";
-
-export default function UserProfile() {
-  return (
-      <div className="UserProfile">
-        <UserAvatar />
-        <UserAvatar />
-      </div>
-  );
-}
-```
-
-#### Embed an external component
-
-```Js
-import React from 'react';
-import ComponentName from 'component-name';
-
-export default function UserProfile() {
-  return (
-      <div className="UserProfile">
-        <ComponentName />
-      </div>
-  );
-}
-```
-
 ### What is JSX?
 
 > JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React. Return a single element (only one parent element)
+
+[JSX Element](#jsx-element) | [JavaScript in JSX](#javascript-in-jsx) | [JSX Expressions](#jsx-expressions) | [JSX attributes](#jsx-attributes) | [JSX Functions](#jsx-functions) | [JSX Conditional rendering](#jsx-conditional-rendering).
 
 #### JSX Element
 
@@ -169,7 +121,65 @@ function App(){
 }
 ```
 
-### What is react props?
+### What is component?
+
+> Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components.
+
+#### Component type
+
+#### Class Components
+
+#### Functional component
+
+```Js
+import React from 'react';
+
+export default function UserProfile() {
+  return (
+      <div className="UserProfile">
+        <div>Hello</div>
+        <div>World</div>
+     </div>
+  );
+}
+```
+
+#### Making an Interactive Component
+
+#### Embed an internal component
+
+```Js
+import React from 'react';
+import UserAvatar from "./UserAvatar";
+
+export default function UserProfile() {
+  return (
+      <div className="UserProfile">
+        <UserAvatar />
+        <UserAvatar />
+      </div>
+  );
+}
+```
+
+#### Embed an external component
+
+```Js
+import React from 'react';
+import ComponentName from 'component-name';
+
+export default function UserProfile() {
+  return (
+      <div className="UserProfile">
+        <ComponentName />
+      </div>
+  );
+}
+```
+
+#### Nested Components
+
+### What is react properties?
 
 > It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It gives a way to pass data from one component to other components. It is similar to function arguments. Props are passed to the component in the same way as arguments passed in a function.
 
@@ -208,6 +218,28 @@ Person.defaultProps = {
     age: 0,
 }
 ```
+
+#### Props object destructuring
+
+### What is react hooks?
+
+[useState](#usestate) | [useEffect](#useeffect) | [useRef](#useref) | [useCallback](#usecallback) | [useMemo](#usememo) | [useContext](#usecontext) | [useReducer](#usereducer) | [Custom Hooks](#custom-hooks)
+
+#### useState
+
+#### useEffect
+
+#### useRef
+
+#### useCallback
+
+#### useMemo
+
+#### useContext
+
+#### useReducer
+
+#### Custom Hooks
 
 ### What is react state?
 
