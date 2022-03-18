@@ -257,4 +257,4 @@ export default function Hello() {
 }
 ```
 
-### add css in react jsx
+### Add css in react jsx
