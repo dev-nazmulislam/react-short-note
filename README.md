@@ -142,16 +142,36 @@ function App(){
 
 > Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components.
 
-#### Component type
-
 #### Class Components
 
+> Class components can define functions that will execute during the component's lifecycle.
+
+#### Creating a class component
+
+```Js
+// MyComponent.js
+import React, { Component } from 'react';
+
+class MyComponent extends Component {
+  render() {
+    return (
+      <div>This is my component.</div>
+    );
+  }
+}
+export default MyComponent;
+```
+
 #### Functional component
+
+> A functional component is basically a JavaScript/ES6 function that returns a React element (JSX). According to React's official docs.
+
+#### Creating a Functional component
 
 ```Js
 import React from 'react';
 
-export default function UserProfile() {
+function UserProfile() {
   return (
       <div className="UserProfile">
         <div>Hello</div>
@@ -159,6 +179,7 @@ export default function UserProfile() {
      </div>
   );
 }
+export default UserProfile;
 ```
 
 #### Making an Interactive Component
