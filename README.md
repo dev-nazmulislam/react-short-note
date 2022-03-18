@@ -28,13 +28,22 @@
 
 ### What is react?
 
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#why-we-use-react">Next</a></small>
+
 > React is a flexible, efficient, open-sourse JavaScript library for building user interfaces.
 
 ### Why we use React?
 
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#benefits-of-single-page-aplications">Next</a></small>
+
 > React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in the application.
 
 ### Benefits of single page aplications.
+
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#what-is-jsx">Next</a></small>
 
 1. Quick Loading Time.
 2. Seamless User Experience.
@@ -42,6 +51,9 @@
 4. Uses Less Bandwidth.
 
 ### What is JSX?
+
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#what-is-component">Next</a></small>
 
 > JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React. Return a single element (only one parent element)
 
@@ -125,6 +137,9 @@ function App(){
 
 ### What is component?
 
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#what-is-react-properties">Next</a></small>
+
 > Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components.
 
 #### Component type
@@ -183,6 +198,9 @@ export default function UserProfile() {
 
 ### What is react properties?
 
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#what-is-react-hooks">Next</a></small>
+
 > It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It gives a way to pass data from one component to other components. It is similar to function arguments. Props are passed to the component in the same way as arguments passed in a function.
 
 #### Passing properties to a component
@@ -225,6 +243,9 @@ Person.defaultProps = {
 
 ### What is react hooks?
 
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#what-is-react-state">Next</a></small>
+
 [useState](#usestate) | [useEffect](#useeffect) | [useRef](#useref) | [useCallback](#usecallback) | [useMemo](#usememo) | [useContext](#usecontext) | [useReducer](#usereducer) | [Custom Hooks](#custom-hooks)
 
 #### useState
@@ -244,6 +265,9 @@ Person.defaultProps = {
 #### Custom Hooks
 
 ### What is react state?
+
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="what-is-react-routing">Next</a></small>
 
 > State is a plain JavaScript object used by React to represent an information about the component's current situation. It's managed in the component (just like any variable declared in a function).
 
@@ -272,9 +296,15 @@ export default function Hello(props) {
 
 ### What is react routing?
 
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#what-is-event-in-react">Next</a></small>
+
 > React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
 
 ### What is event in react?
+
+<small><a href="#react-tutorial">Top</a></small>
+<small><a href="#add-css-in-react-jsx">Next</a></small>
 
 > An event is an action that could be triggered as a result of the user action or system generated event.
 
@@ -298,3 +328,5 @@ export default function Hello() {
 ```
 
 ### Add css in react jsx
+
+<small><a href="#react-tutorial">Top</a></small>
