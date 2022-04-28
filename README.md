@@ -25,6 +25,37 @@
 5. [Mongodb](#mongodb)
 6. [dotenv](#dotenv)
 
+# Herouku deploy
+
+### One Time for your computer
+
+1. Create Herouku account.
+2. Install herouku CLI.
+3. Download & install herouku app.
+4. Check some task on client side.
+5. herouku login.
+6. herouku create.
+7. git push herouku main.
+
+### For each Projects one time.
+
+1. herouku create.
+2. Make sure your git add, git commit, git push up to date.
+3. git push herouku main.
+4. Go to Dashboard > Current Projects > Settings > Reveal Config Vars and add .env file.
+
+### Update Server with new changes.
+
+1. Make Change.
+2. Make sure your git add, git commit, git push up to date.
+3. git push herouku main.
+
+### Connect server with client side & deply firebase.
+
+1. Replace locall host with herouku link.
+2. npm run build.
+3. firebase deploy.
+
 # Get Started
 
 ### [Creact React App](https://react-bootstrap.github.io/)
