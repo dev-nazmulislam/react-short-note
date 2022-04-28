@@ -3,7 +3,7 @@
 1. [React Fundamental Concepts](https://github.com/dev-nazmulislam/react-short-note/tree/react-fundamental)
 2. [React Advanced concepts](https://github.com/dev-nazmulislam/react-short-note/tree/advanced)
 
-# Installation for client side with websit link
+# Installation for client side with website link
 
 1.  [Create React App](#creact-react-app)
 2.  [Router](#react-router)
@@ -15,6 +15,15 @@
 8.  [React Icons](react-icons)
 9.  [react-hot-toast](#react-hot-toast)
 10. [Rechart](#react-recharts)
+
+# Installation for server side with website link
+
+1. [Server setup with mongodb atlas](#server-setup-with-mongodb-atlas)
+2. [Express](#express)
+3. [Nodemon](#nodemon)
+4. [Cors](#cors)
+5. [Mongodb](#mongodb)
+6. [dotenv](#dotenv)
 
 # Get Started
 
@@ -149,4 +158,56 @@ npm install react-hot-toast
 
 ```
 npm install recharts
+```
+
+### [Server setup with mongodb atlas](https://www.mongodb.com/atlas/database)
+
+[mongodb doc](https://www.mongodb.com/docs/drivers/node/current/)
+
+- Create folder
+- npm init
+- Creacte index.js file
+- Add some script on pakage.json file
+
+```Js
+"start":"node index.js",
+"start-dev":"nodemon index.js"
+```
+
+- Create MongoDB Atlas Account with 5 steeps
+
+  1. sign up. with google access.
+  2. create cluster.
+  3. Create user & password.
+  4. Network Access --> ip address: allow all.
+  5. database > Connect > code copy paste in index.js
+
+### [Express](https://expressjs.com/)
+
+```Js
+npm install express
+```
+
+### [Nodemon](https://www.npmjs.com/package/nodemon)
+
+```Js
+npm install -g nodemon
+```
+
+### [Cors](http://expressjs.com/en/resources/middleware/cors.html)
+
+```Js
+npm install cors
+```
+
+### [Mongodb](https://www.mongodb.com/docs/drivers/node/current/)
+
+```Js
+npm install mongodb
+```
+
+### [dotenv](https://www.npmjs.com/package/dotenv)
+
+```Js
+npm install dotenv --save
 ```
