@@ -14,9 +14,9 @@
 7.  [React hooks form](#React-hooks-form)
 8.  [React Icons](react-icons)
 9.  [react-hot-toast](#react-hot-toast)
-10. [Rechart](#rechart)
+10. [Rechart](#react-recharts)
 
-# get Started
+# Get Started
 
 ### [Creact React App](https://react-bootstrap.github.io/)
 
